@@ -1,12 +1,38 @@
-.text{
-    font-weight: 700;
+.introduction {
+
+    min-height: 70vh;
+    background-color: #010F3F;
+    /* overflow: hidden; */
 }
-.text2{
-    font-weight: 600;
-    border-radius: 5px;
+
+
+
+.p-style {
+    font-size: 3vw;
+    letter-spacing: 5px;
+
+
 
 }
 .text2:hover{
-    text-transform: uppercase;
-    background-color: rgb(131, 240, 222);
+    background-color: rgb(247, 183, 105);
+    border-radius: 10px;
+}
+
+/* .style {
+    position: absolute;
+    width: 100%;
+    left: 15%;
+} */
+.courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.categories img{
+    height: 250px;
+    width: 275px;
+}
+.instructors img{
+    height: 250px;
+    width: 270px;
 }
