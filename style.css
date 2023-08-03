@@ -26,13 +26,29 @@
 } */
 .courses img{
     height: 250px;
-    border-radius: 10px;
+    /* width: 260px; */
+    border-radius: 30px;
+    padding: 15px;
 }
 .categories img{
-    height: 250px;
-    width: 275px;
+    width: 66px;
+    height: 85px;
+    
 }
 .instructors img{
-    height: 250px;
-    width: 270px;
+    height: 300px;
+    /* width: 260px; */
+    border-radius: 30px;
+    padding: 15px;
+}
+.categories img:hover
+{
+    transform: scale(1.05);
+   
+}
+footer
+{
+    background-color:  #282531;
+    color: white;
+    
 }
