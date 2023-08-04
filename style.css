@@ -3,27 +3,39 @@
     min-height: 70vh;
     background-color: #010F3F;
     /* overflow: hidden; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.wrapper{
+    position:absolute;
+    width: 100%;
+   
+}
+span{
+    color: rgb(226, 215, 215);
+    font-size: 4.5vh;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.multiText{
+    font-weight: 700;
+    text-transform: capitalize;
+}
 
-
-.p-style {
+/* .p-style {
     font-size: 3vw;
     letter-spacing: 5px;
 
 
 
-}
+} */
 .text2:hover{
     background-color: rgb(247, 183, 105);
     border-radius: 10px;
 }
 
-/* .style {
-    position: absolute;
-    width: 100%;
-    left: 15%;
-} */
+
 .courses img{
     height: 250px;
     /* width: 260px; */
@@ -41,14 +53,17 @@
     border-radius: 30px;
     padding: 15px;
 }
-.categories img:hover
+.card-option:hover
 {
     transform: scale(1.05);
    
 }
 footer
 {
-    background-color:  #282531;
+    background-color:  #010F3F;
     color: white;
     
+}
+.card-option{
+    background-color: #c6f58a;
 }
